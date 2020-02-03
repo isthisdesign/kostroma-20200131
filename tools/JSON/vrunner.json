@@ -4,7 +4,7 @@
         "--ibconnection": "/FC:/projects/SB/sb-hakaton-2019/build/БСП-1",
         // "--ibconnection": "/Smyserver\\mybase",
         "--db-user": "Администратор",
-        "--db-pwd": "",
+        "--db-pwd": "", 
         "--workspace": ".",
         "--v8version":"8.3.15.1778",
         "--additional": "/DisplayAllFunctions /Lru  /iTaxi ",
@@ -15,6 +15,7 @@
         "--vanessasettings": "./tools/JSON/vanessaBddConf.json"
     },
     "xunit": {
+        "--testclient": "Администратор::1594",
         "--xddConfig": "./tools/JSON/vanessaTddConf.json",
         "testsPath": "./tests",
         "--reportsxunit": "ГенераторОтчетаJUnitXML{build/junit.xml};ГенераторОтчетаAllureXMLВерсия2{build/allure/allure.xml}",
